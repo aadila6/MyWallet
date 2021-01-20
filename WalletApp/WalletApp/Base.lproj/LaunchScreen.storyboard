@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sEy-Np-UDf">
+                                <rect key="frame" x="132" y="373" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="7sl-fc-wue"/>
+                                    <constraint firstAttribute="height" constant="150" id="xOf-sP-Ewn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyWallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvp-Nv-30y">
+                                <rect key="frame" x="156.66666666666666" y="553" width="100.99999999999997" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" red="0.02762995474" green="0.070218317210000006" blue="0.2795462608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vvp-Nv-30y" firstAttribute="top" secondItem="sEy-Np-UDf" secondAttribute="bottom" constant="30" id="HWA-7K-T8k"/>
+                            <constraint firstItem="sEy-Np-UDf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KKk-zj-djW"/>
+                            <constraint firstItem="vvp-Nv-30y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OhJ-jh-z0v"/>
+                            <constraint firstItem="sEy-Np-UDf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="enL-hp-8kh"/>
+                            <constraint firstItem="sEy-Np-UDf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yha-IP-GcX"/>
+                            <constraint firstItem="sEy-Np-UDf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zlM-3E-J39"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="256" height="256"/>
+    </resources>
+</document>
